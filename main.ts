@@ -1,5 +1,8 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
+
 import chalk from "chalk";
+
 let todos:string[] = ["haider","aamir"]
 
 async function creatTodo(todo:string[]){
