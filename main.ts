@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 
 import chalk from "chalk";
 
-let todos:string[] = ["haider","aamir"]
+let todos:string[] = []
 
 async function creatTodo(todo:string[]){
     do{  let option = await inquirer.prompt({
